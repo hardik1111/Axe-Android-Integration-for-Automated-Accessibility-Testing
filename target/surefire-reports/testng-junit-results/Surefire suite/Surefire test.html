@@ -1,0 +1,520 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>88/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 10 23:51:56 CET 2024</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9644 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.isOffScreen_viewOutOfScreen_returnsTrue()'><b>isOffScreen_viewOutOfScreen_returnsTrue</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>isOffScreen_viewOutOfScreen_returnsTrue(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.testIgnoreMultipleRules()'><b>testIgnoreMultipleRules</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>0</td>
+<td>testIgnoreMultipleRules(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.testOneStandardAndOneRule()'><b>testOneStandardAndOneRule</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>2</td>
+<td>testOneStandardAndOneRule(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.ColorContrastTests.example_withActualTextColor_ManualTestingRequired()'><b>example_withActualTextColor_ManualTestingRequired</b><br>Test class: com.deque.axe.android.ColorContrastTests</td>
+<td></td>
+<td>0</td>
+<td>example_withActualTextColor_ManualTestingRequired(com.deque.axe.android.ColorContrastTests)</td></tr>
+<tr>
+<td title='com.deque.axe.android.ColorContrastTests.example_Accessible()'><b>example_Accessible</b><br>Test class: com.deque.axe.android.ColorContrastTests</td>
+<td></td>
+<td>0</td>
+<td>example_Accessible(com.deque.axe.android.ColorContrastTests)</td></tr>
+<tr>
+<td title='com.deque.axe.android.wrappers.AxeRectTest.testEqualityTest()'><b>testEqualityTest</b><br>Test class: com.deque.axe.android.wrappers.AxeRectTest</td>
+<td></td>
+<td>0</td>
+<td>testEqualityTest(com.deque.axe.android.wrappers.AxeRectTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest.runRule_expectedSizeGreaterThanAdjustedHeight()'><b>runRule_expectedSizeGreaterThanAdjustedHeight</b><br>Test class: com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest</td>
+<td></td>
+<td>0</td>
+<td>runRule_expectedSizeGreaterThanAdjustedHeight(com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.CheckBoxNameTest.visibleTextEmpty_labelIsEmpty_runRule()'><b>visibleTextEmpty_labelIsEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.CheckBoxNameTest</td>
+<td></td>
+<td>0</td>
+<td>visibleTextEmpty_labelIsEmpty_runRule(com.deque.axe.android.rules.hierarchy.CheckBoxNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.EditTextValueTest.overRidesAccessibilityDelegate_returnsFalse()'><b>overRidesAccessibilityDelegate_returnsFalse</b><br>Test class: com.deque.axe.android.rules.hierarchy.EditTextValueTest</td>
+<td></td>
+<td>0</td>
+<td>overRidesAccessibilityDelegate_returnsFalse(com.deque.axe.android.rules.hierarchy.EditTextValueTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.EditTextValueTest.emptyContentDescription_runRule()'><b>emptyContentDescription_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.EditTextValueTest</td>
+<td></td>
+<td>0</td>
+<td>emptyContentDescription_runRule(com.deque.axe.android.rules.hierarchy.EditTextValueTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.calculateProps_switch()'><b>calculateProps_switch</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>calculateProps_switch(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest.runRule_isRendered()'><b>runRule_isRendered</b><br>Test class: com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest</td>
+<td></td>
+<td>0</td>
+<td>runRule_isRendered(com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.isOffScreen_viewInsideScreen_returnsFalse()'><b>isOffScreen_viewInsideScreen_returnsFalse</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>isOffScreen_viewInsideScreen_returnsFalse(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ActiveViewNameTest.isApplicable_classNameIsSwitch()'><b>isApplicable_classNameIsSwitch</b><br>Test class: com.deque.axe.android.rules.hierarchy.ActiveViewNameTest</td>
+<td></td>
+<td>2</td>
+<td>isApplicable_classNameIsSwitch(com.deque.axe.android.rules.hierarchy.ActiveViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ActiveViewNameTest.isApplicable_overridesAccessibilityDelegate_returnsFalse()'><b>isApplicable_overridesAccessibilityDelegate_returnsFalse</b><br>Test class: com.deque.axe.android.rules.hierarchy.ActiveViewNameTest</td>
+<td></td>
+<td>2</td>
+<td>isApplicable_overridesAccessibilityDelegate_returnsFalse(com.deque.axe.android.rules.hierarchy.ActiveViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.CheckBoxNameTest.overRidesAccessibilityDelegate_returnsFalse()'><b>overRidesAccessibilityDelegate_returnsFalse</b><br>Test class: com.deque.axe.android.rules.hierarchy.CheckBoxNameTest</td>
+<td></td>
+<td>0</td>
+<td>overRidesAccessibilityDelegate_returnsFalse(com.deque.axe.android.rules.hierarchy.CheckBoxNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.calculateProps_offScreenAndObscuredAxeView()'><b>calculateProps_offScreenAndObscuredAxeView</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>calculateProps_offScreenAndObscuredAxeView(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.testRuleSize()'><b>testRuleSize</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>2</td>
+<td>testRuleSize(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.SwitchNameTest.visibleTextEmpty_labelNotEmpty_runRule()'><b>visibleTextEmpty_labelNotEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.SwitchNameTest</td>
+<td></td>
+<td>0</td>
+<td>visibleTextEmpty_labelNotEmpty_runRule(com.deque.axe.android.rules.hierarchy.SwitchNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.ColorContrastTests.imageTest_whiteTextBlueBackground()'><b>imageTest_whiteTextBlueBackground</b><br>Test class: com.deque.axe.android.ColorContrastTests</td>
+<td></td>
+<td>4</td>
+<td>imageTest_whiteTextBlueBackground(com.deque.axe.android.ColorContrastTests)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.EditTextValueTest.editTextClass_isApplicable()'><b>editTextClass_isApplicable</b><br>Test class: com.deque.axe.android.rules.hierarchy.EditTextValueTest</td>
+<td></td>
+<td>0</td>
+<td>editTextClass_isApplicable(com.deque.axe.android.rules.hierarchy.EditTextValueTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeDeviceTest.construct()'><b>construct</b><br>Test class: com.deque.axe.android.AxeDeviceTest</td>
+<td></td>
+<td>0</td>
+<td>construct(com.deque.axe.android.AxeDeviceTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.isRendered()'><b>isRendered</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>isRendered(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.jsonAxeRuleResultTestSpecs()'><b>jsonAxeRuleResultTestSpecs</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>2</td>
+<td>jsonAxeRuleResultTestSpecs(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.wrappers.AxeColorTest.toHex_White()'><b>toHex_White</b><br>Test class: com.deque.axe.android.wrappers.AxeColorTest</td>
+<td></td>
+<td>0</td>
+<td>toHex_White(com.deque.axe.android.wrappers.AxeColorTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.testDefaultConfig()'><b>testDefaultConfig</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>0</td>
+<td>testDefaultConfig(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.EditTextValueTest.switchClass_isApplicable()'><b>switchClass_isApplicable</b><br>Test class: com.deque.axe.android.rules.hierarchy.EditTextValueTest</td>
+<td></td>
+<td>0</td>
+<td>switchClass_isApplicable(com.deque.axe.android.rules.hierarchy.EditTextValueTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ImageViewNameTest.imageViewClass_isApplicable()'><b>imageViewClass_isApplicable</b><br>Test class: com.deque.axe.android.rules.hierarchy.ImageViewNameTest</td>
+<td></td>
+<td>0</td>
+<td>imageViewClass_isApplicable(com.deque.axe.android.rules.hierarchy.ImageViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.isPartiallyVisible_buttonIsNotOffScreen_returnsFalse()'><b>isPartiallyVisible_buttonIsNotOffScreen_returnsFalse</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>isPartiallyVisible_buttonIsNotOffScreen_returnsFalse(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest.runRule_isOffScreen()'><b>runRule_isOffScreen</b><br>Test class: com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest</td>
+<td></td>
+<td>0</td>
+<td>runRule_isOffScreen(com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.SwitchNameTest.visibleTextNotEmpty_labelNotEmpty_runRule()'><b>visibleTextNotEmpty_labelNotEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.SwitchNameTest</td>
+<td></td>
+<td>0</td>
+<td>visibleTextNotEmpty_labelNotEmpty_runRule(com.deque.axe.android.rules.hierarchy.SwitchNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.EditTextNameTest.labelIsNotNullOrEmpty_runRule()'><b>labelIsNotNullOrEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.EditTextNameTest</td>
+<td></td>
+<td>0</td>
+<td>labelIsNotNullOrEmpty_runRule(com.deque.axe.android.rules.hierarchy.EditTextNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.CheckBoxNameTest.visibleTextEmpty_labelNotEmpty_runRule()'><b>visibleTextEmpty_labelNotEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.CheckBoxNameTest</td>
+<td></td>
+<td>0</td>
+<td>visibleTextEmpty_labelNotEmpty_runRule(com.deque.axe.android.rules.hierarchy.CheckBoxNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ImageViewNameTest.switchClass_isApplicable()'><b>switchClass_isApplicable</b><br>Test class: com.deque.axe.android.rules.hierarchy.ImageViewNameTest</td>
+<td></td>
+<td>0</td>
+<td>switchClass_isApplicable(com.deque.axe.android.rules.hierarchy.ImageViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.axeViewJsonTest()'><b>axeViewJsonTest</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>0</td>
+<td>axeViewJsonTest(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.SwitchNameTest.visibleTextNotEmpty_labelEmpty_runRule()'><b>visibleTextNotEmpty_labelEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.SwitchNameTest</td>
+<td></td>
+<td>0</td>
+<td>visibleTextNotEmpty_labelEmpty_runRule(com.deque.axe.android.rules.hierarchy.SwitchNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.ColorContrastTests.imageTest_intellijCapture()'><b>imageTest_intellijCapture</b><br>Test class: com.deque.axe.android.ColorContrastTests</td>
+<td></td>
+<td>0</td>
+<td>imageTest_intellijCapture(com.deque.axe.android.ColorContrastTests)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.screenTitle_basic()'><b>screenTitle_basic</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>screenTitle_basic(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.ColorContrastTests.imageTest_textOnlyAtTop()'><b>imageTest_textOnlyAtTop</b><br>Test class: com.deque.axe.android.ColorContrastTests</td>
+<td></td>
+<td>4</td>
+<td>imageTest_textOnlyAtTop(com.deque.axe.android.ColorContrastTests)</td></tr>
+<tr>
+<td title='com.deque.axe.android.wrappers.AxeColorTest.compareTo_same()'><b>compareTo_same</b><br>Test class: com.deque.axe.android.wrappers.AxeColorTest</td>
+<td></td>
+<td>0</td>
+<td>compareTo_same(com.deque.axe.android.wrappers.AxeColorTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.wrappers.AxeColorTest.toHex_Black()'><b>toHex_Black</b><br>Test class: com.deque.axe.android.wrappers.AxeColorTest</td>
+<td></td>
+<td>0</td>
+<td>toHex_Black(com.deque.axe.android.wrappers.AxeColorTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.wrappers.AxeRectTest.test_EqualityCheck()'><b>test_EqualityCheck</b><br>Test class: com.deque.axe.android.wrappers.AxeRectTest</td>
+<td></td>
+<td>0</td>
+<td>test_EqualityCheck(com.deque.axe.android.wrappers.AxeRectTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ActiveViewNameTest.runRule()'><b>runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.ActiveViewNameTest</td>
+<td></td>
+<td>2</td>
+<td>runRule(com.deque.axe.android.rules.hierarchy.ActiveViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.wrappers.AxeRectTest.test_NonOrigin()'><b>test_NonOrigin</b><br>Test class: com.deque.axe.android.wrappers.AxeRectTest</td>
+<td></td>
+<td>0</td>
+<td>test_NonOrigin(com.deque.axe.android.wrappers.AxeRectTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest.overRidesAccessibilityDelegate_returnsFalse()'><b>overRidesAccessibilityDelegate_returnsFalse</b><br>Test class: com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest</td>
+<td></td>
+<td>0</td>
+<td>overRidesAccessibilityDelegate_returnsFalse(com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.isNotRendered()'><b>isNotRendered</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>isNotRendered(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.ColorContrastTests.example_Inaccessible()'><b>example_Inaccessible</b><br>Test class: com.deque.axe.android.ColorContrastTests</td>
+<td></td>
+<td>0</td>
+<td>example_Inaccessible(com.deque.axe.android.ColorContrastTests)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.EditTextValueTest.editTextClass_overridesAccessibilityDelegate_notApplicable()'><b>editTextClass_overridesAccessibilityDelegate_notApplicable</b><br>Test class: com.deque.axe.android.rules.hierarchy.EditTextValueTest</td>
+<td></td>
+<td>0</td>
+<td>editTextClass_overridesAccessibilityDelegate_notApplicable(com.deque.axe.android.rules.hierarchy.EditTextValueTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ImageViewNameTest.isImportantForAccessibilityEmptyContentDesc_runRule()'><b>isImportantForAccessibilityEmptyContentDesc_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.ImageViewNameTest</td>
+<td></td>
+<td>0</td>
+<td>isImportantForAccessibilityEmptyContentDesc_runRule(com.deque.axe.android.rules.hierarchy.ImageViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.wrappers.AxeRectTest.binaryRowSearch()'><b>binaryRowSearch</b><br>Test class: com.deque.axe.android.wrappers.AxeRectTest</td>
+<td></td>
+<td>0</td>
+<td>binaryRowSearch(com.deque.axe.android.wrappers.AxeRectTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.EditTextValueTest.nonEmptyContentDescription_runRule()'><b>nonEmptyContentDescription_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.EditTextValueTest</td>
+<td></td>
+<td>0</td>
+<td>nonEmptyContentDescription_runRule(com.deque.axe.android.rules.hierarchy.EditTextValueTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.ColorContrastTests.example_ManualTestingRequired()'><b>example_ManualTestingRequired</b><br>Test class: com.deque.axe.android.ColorContrastTests</td>
+<td></td>
+<td>4</td>
+<td>example_ManualTestingRequired(com.deque.axe.android.ColorContrastTests)</td></tr>
+<tr>
+<td title='com.deque.axe.android.wrappers.AxeColorTest.compareTo_different()'><b>compareTo_different</b><br>Test class: com.deque.axe.android.wrappers.AxeColorTest</td>
+<td></td>
+<td>0</td>
+<td>compareTo_different(com.deque.axe.android.wrappers.AxeColorTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.CheckBoxNameTest.visibleTextNotEmpty_labelNotEmpty_runRule()'><b>visibleTextNotEmpty_labelNotEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.CheckBoxNameTest</td>
+<td></td>
+<td>0</td>
+<td>visibleTextNotEmpty_labelNotEmpty_runRule(com.deque.axe.android.rules.hierarchy.CheckBoxNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest.runRule_isPartiallyVisible()'><b>runRule_isPartiallyVisible</b><br>Test class: com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest</td>
+<td></td>
+<td>0</td>
+<td>runRule_isPartiallyVisible(com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.ColorContrastTests.imageTest_textWithIcon()'><b>imageTest_textWithIcon</b><br>Test class: com.deque.axe.android.ColorContrastTests</td>
+<td></td>
+<td>0</td>
+<td>imageTest_textWithIcon(com.deque.axe.android.ColorContrastTests)</td></tr>
+<tr>
+<td title='com.deque.axe.android.wrappers.AxeColorTest.toHex_Random()'><b>toHex_Random</b><br>Test class: com.deque.axe.android.wrappers.AxeColorTest</td>
+<td></td>
+<td>0</td>
+<td>toHex_Random(com.deque.axe.android.wrappers.AxeColorTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.testRun()'><b>testRun</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>0</td>
+<td>testRun(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.EditTextNameTest.labelIsEmpty_runRule()'><b>labelIsEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.EditTextNameTest</td>
+<td></td>
+<td>0</td>
+<td>labelIsEmpty_runRule(com.deque.axe.android.rules.hierarchy.EditTextNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.testThrownException()'><b>testThrownException</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>2</td>
+<td>testThrownException(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.calculateProps_obscuredAxeView()'><b>calculateProps_obscuredAxeView</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>calculateProps_obscuredAxeView(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.query()'><b>query</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>query(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ActiveViewNameTest.viewNotClickable_runRule()'><b>viewNotClickable_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.ActiveViewNameTest</td>
+<td></td>
+<td>2</td>
+<td>viewNotClickable_runRule(com.deque.axe.android.rules.hierarchy.ActiveViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.isOffScreen_viewInScreen_returnsFalse()'><b>isOffScreen_viewInScreen_returnsFalse</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>isOffScreen_viewInScreen_returnsFalse(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.calculateProps_offScreenAxeView()'><b>calculateProps_offScreenAxeView</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>calculateProps_offScreenAxeView(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest.runRule_expectedSizeLessThanAdjustedHeightAndExpectedSizeLessThanAdjustedWidth()'><b>runRule_expectedSizeLessThanAdjustedHeightAndExpectedSizeLessThanAdjustedWidth</b><br>Test class: com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest</td>
+<td></td>
+<td>0</td>
+<td>runRule_expectedSizeLessThanAdjustedHeightAndExpectedSizeLessThanAdjustedWidth(com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.screenTitle_noContentView()'><b>screenTitle_noContentView</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>screenTitle_noContentView(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.SwitchNameTest.overRidesAccessibilityDelegate_returnsFalse()'><b>overRidesAccessibilityDelegate_returnsFalse</b><br>Test class: com.deque.axe.android.rules.hierarchy.SwitchNameTest</td>
+<td></td>
+<td>0</td>
+<td>overRidesAccessibilityDelegate_returnsFalse(com.deque.axe.android.rules.hierarchy.SwitchNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeResultTest.test_QueryOnlyViolations()'><b>test_QueryOnlyViolations</b><br>Test class: com.deque.axe.android.AxeResultTest</td>
+<td></td>
+<td>0</td>
+<td>test_QueryOnlyViolations(com.deque.axe.android.AxeResultTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.tesAxeConf()'><b>tesAxeConf</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>2</td>
+<td>tesAxeConf(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.calculateProps_editText()'><b>calculateProps_editText</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>calculateProps_editText(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.testIgnoreRule()'><b>testIgnoreRule</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>2</td>
+<td>testIgnoreRule(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.SwitchNameTest.visibleTextEmpty_labelIsEmpty_runRule()'><b>visibleTextEmpty_labelIsEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.SwitchNameTest</td>
+<td></td>
+<td>0</td>
+<td>visibleTextEmpty_labelIsEmpty_runRule(com.deque.axe.android.rules.hierarchy.SwitchNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.calculateProps_noContentDescription_editText()'><b>calculateProps_noContentDescription_editText</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>calculateProps_noContentDescription_editText(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest.runRule_expectedSizeGreaterThanAdjustedWidth()'><b>runRule_expectedSizeGreaterThanAdjustedWidth</b><br>Test class: com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest</td>
+<td></td>
+<td>0</td>
+<td>runRule_expectedSizeGreaterThanAdjustedWidth(com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.calculatedProps_ImageView()'><b>calculatedProps_ImageView</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>calculatedProps_ImageView(com.deque.axe.android.AxeViewTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.CheckBoxNameTest.visibleTextNotEmpty_labelEmpty_runRule()'><b>visibleTextNotEmpty_labelEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.CheckBoxNameTest</td>
+<td></td>
+<td>0</td>
+<td>visibleTextNotEmpty_labelEmpty_runRule(com.deque.axe.android.rules.hierarchy.CheckBoxNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.ColorContrastTests.imageTest_intellijCaptureHard()'><b>imageTest_intellijCaptureHard</b><br>Test class: com.deque.axe.android.ColorContrastTests</td>
+<td></td>
+<td>4</td>
+<td>imageTest_intellijCaptureHard(com.deque.axe.android.ColorContrastTests)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeTest.axeMetaDataJsonTest()'><b>axeMetaDataJsonTest</b><br>Test class: com.deque.axe.android.AxeTest</td>
+<td></td>
+<td>2</td>
+<td>axeMetaDataJsonTest(com.deque.axe.android.AxeTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ActiveViewNameTest.speakableTextEmpty_runRule()'><b>speakableTextEmpty_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.ActiveViewNameTest</td>
+<td></td>
+<td>2</td>
+<td>speakableTextEmpty_runRule(com.deque.axe.android.rules.hierarchy.ActiveViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ActiveViewNameTest.isApplicable_classNameIsCheckBox()'><b>isApplicable_classNameIsCheckBox</b><br>Test class: com.deque.axe.android.rules.hierarchy.ActiveViewNameTest</td>
+<td></td>
+<td>2</td>
+<td>isApplicable_classNameIsCheckBox(com.deque.axe.android.rules.hierarchy.ActiveViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.EditTextNameTest.overRidesAccessibilityDelegate_returnsFalse()'><b>overRidesAccessibilityDelegate_returnsFalse</b><br>Test class: com.deque.axe.android.rules.hierarchy.EditTextNameTest</td>
+<td></td>
+<td>0</td>
+<td>overRidesAccessibilityDelegate_returnsFalse(com.deque.axe.android.rules.hierarchy.EditTextNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.ColorContrastTests.imageTest_largeWhiteTextBlueBackground()'><b>imageTest_largeWhiteTextBlueBackground</b><br>Test class: com.deque.axe.android.ColorContrastTests</td>
+<td></td>
+<td>0</td>
+<td>imageTest_largeWhiteTextBlueBackground(com.deque.axe.android.ColorContrastTests)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ActiveViewNameTest.isApplicable_classNameIsButton()'><b>isApplicable_classNameIsButton</b><br>Test class: com.deque.axe.android.rules.hierarchy.ActiveViewNameTest</td>
+<td></td>
+<td>2</td>
+<td>isApplicable_classNameIsButton(com.deque.axe.android.rules.hierarchy.ActiveViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ImageViewNameTest.isNotImportantForAccessibility_runRule()'><b>isNotImportantForAccessibility_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.ImageViewNameTest</td>
+<td></td>
+<td>0</td>
+<td>isNotImportantForAccessibility_runRule(com.deque.axe.android.rules.hierarchy.ImageViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ImageViewNameTest.isImportantForAccessibilityNonEmptyContentDesc_runRule()'><b>isImportantForAccessibilityNonEmptyContentDesc_runRule</b><br>Test class: com.deque.axe.android.rules.hierarchy.ImageViewNameTest</td>
+<td></td>
+<td>0</td>
+<td>isImportantForAccessibilityNonEmptyContentDesc_runRule(com.deque.axe.android.rules.hierarchy.ImageViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.rules.hierarchy.ImageViewNameTest.imageViewClass_overridesAccessibilityDelegate_notApplicable()'><b>imageViewClass_overridesAccessibilityDelegate_notApplicable</b><br>Test class: com.deque.axe.android.rules.hierarchy.ImageViewNameTest</td>
+<td></td>
+<td>0</td>
+<td>imageViewClass_overridesAccessibilityDelegate_notApplicable(com.deque.axe.android.rules.hierarchy.ImageViewNameTest)</td></tr>
+<tr>
+<td title='com.deque.axe.android.AxeViewTest.calculateProps_Button()'><b>calculateProps_Button</b><br>Test class: com.deque.axe.android.AxeViewTest</td>
+<td></td>
+<td>0</td>
+<td>calculateProps_Button(com.deque.axe.android.AxeViewTest)</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="88" passed="88" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-10T23:51:56 CET" name="Surefire suite" finished-at="2024-01-10T23:52:06 CET" duration-ms="9644">
+    <groups>
+    </groups>
+    <test started-at="2024-01-10T23:51:56 CET" name="Surefire test" finished-at="2024-01-10T23:52:06 CET" duration-ms="9644">
+      <class name="com.deque.axe.android.rules.hierarchy.EditTextNameTest">
+        <test-method signature="labelIsNotNullOrEmpty_runRule()" started-at="2024-01-10T23:52:05 CET" name="labelIsNotNullOrEmpty_runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelIsNotNullOrEmpty_runRule -->
+        <test-method signature="overRidesAccessibilityDelegate_returnsFalse()" started-at="2024-01-10T23:52:05 CET" name="overRidesAccessibilityDelegate_returnsFalse" finished-at="2024-01-10T23:52:05 CET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overRidesAccessibilityDelegate_returnsFalse -->
+        <test-method signature="labelIsEmpty_runRule()" started-at="2024-01-10T23:52:05 CET" name="labelIsEmpty_runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelIsEmpty_runRule -->
+      </class> <!-- com.deque.axe.android.rules.hierarchy.EditTextNameTest -->
+      <class name="com.deque.axe.android.AxeDeviceTest">
+        <test-method signature="construct()" started-at="2024-01-10T23:51:56 CET" name="construct" finished-at="2024-01-10T23:51:56 CET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- construct -->
+      </class> <!-- com.deque.axe.android.AxeDeviceTest -->
+      <class name="com.deque.axe.android.wrappers.AxeRectTest">
+        <test-method signature="test_NonOrigin()" started-at="2024-01-10T23:52:06 CET" name="test_NonOrigin" finished-at="2024-01-10T23:52:06 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NonOrigin -->
+        <test-method signature="binaryRowSearch()" started-at="2024-01-10T23:52:06 CET" name="binaryRowSearch" finished-at="2024-01-10T23:52:06 CET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- binaryRowSearch -->
+        <test-method signature="testEqualityTest()" started-at="2024-01-10T23:52:06 CET" name="testEqualityTest" finished-at="2024-01-10T23:52:06 CET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEqualityTest -->
+        <test-method signature="test_EqualityCheck()" started-at="2024-01-10T23:52:06 CET" name="test_EqualityCheck" finished-at="2024-01-10T23:52:06 CET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_EqualityCheck -->
+      </class> <!-- com.deque.axe.android.wrappers.AxeRectTest -->
+      <class name="com.deque.axe.android.AxeViewTest">
+        <test-method signature="calculateProps_switch()" started-at="2024-01-10T23:51:58 CET" name="calculateProps_switch" finished-at="2024-01-10T23:51:58 CET" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateProps_switch -->
+        <test-method signature="isOffScreen_viewInsideScreen_returnsFalse()" started-at="2024-01-10T23:51:58 CET" name="isOffScreen_viewInsideScreen_returnsFalse" finished-at="2024-01-10T23:51:58 CET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOffScreen_viewInsideScreen_returnsFalse -->
+        <test-method signature="calculateProps_offScreenAndObscuredAxeView()" started-at="2024-01-10T23:51:58 CET" name="calculateProps_offScreenAndObscuredAxeView" finished-at="2024-01-10T23:51:58 CET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateProps_offScreenAndObscuredAxeView -->
+        <test-method signature="isRendered()" started-at="2024-01-10T23:51:58 CET" name="isRendered" finished-at="2024-01-10T23:51:58 CET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isRendered -->
+        <test-method signature="screenTitle_basic()" started-at="2024-01-10T23:51:58 CET" name="screenTitle_basic" finished-at="2024-01-10T23:51:58 CET" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenTitle_basic -->
+        <test-method signature="isNotRendered()" started-at="2024-01-10T23:51:58 CET" name="isNotRendered" finished-at="2024-01-10T23:51:58 CET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNotRendered -->
+        <test-method signature="query()" started-at="2024-01-10T23:51:58 CET" name="query" finished-at="2024-01-10T23:51:58 CET" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query -->
+        <test-method signature="isOffScreen_viewInScreen_returnsFalse()" started-at="2024-01-10T23:51:58 CET" name="isOffScreen_viewInScreen_returnsFalse" finished-at="2024-01-10T23:51:58 CET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOffScreen_viewInScreen_returnsFalse -->
+        <test-method signature="calculateProps_offScreenAxeView()" started-at="2024-01-10T23:51:58 CET" name="calculateProps_offScreenAxeView" finished-at="2024-01-10T23:51:58 CET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateProps_offScreenAxeView -->
+        <test-method signature="screenTitle_noContentView()" started-at="2024-01-10T23:51:58 CET" name="screenTitle_noContentView" finished-at="2024-01-10T23:51:58 CET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenTitle_noContentView -->
+        <test-method signature="calculateProps_editText()" started-at="2024-01-10T23:51:58 CET" name="calculateProps_editText" finished-at="2024-01-10T23:51:58 CET" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateProps_editText -->
+        <test-method signature="calculatedProps_ImageView()" started-at="2024-01-10T23:51:58 CET" name="calculatedProps_ImageView" finished-at="2024-01-10T23:51:58 CET" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatedProps_ImageView -->
+        <test-method signature="isOffScreen_viewOutOfScreen_returnsTrue()" started-at="2024-01-10T23:51:58 CET" name="isOffScreen_viewOutOfScreen_returnsTrue" finished-at="2024-01-10T23:51:58 CET" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOffScreen_viewOutOfScreen_returnsTrue -->
+        <test-method signature="isPartiallyVisible_buttonIsNotOffScreen_returnsFalse()" started-at="2024-01-10T23:51:58 CET" name="isPartiallyVisible_buttonIsNotOffScreen_returnsFalse" finished-at="2024-01-10T23:51:58 CET" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPartiallyVisible_buttonIsNotOffScreen_returnsFalse -->
+        <test-method signature="calculateProps_obscuredAxeView()" started-at="2024-01-10T23:51:58 CET" name="calculateProps_obscuredAxeView" finished-at="2024-01-10T23:51:58 CET" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateProps_obscuredAxeView -->
+        <test-method signature="calculateProps_noContentDescription_editText()" started-at="2024-01-10T23:51:58 CET" name="calculateProps_noContentDescription_editText" finished-at="2024-01-10T23:51:58 CET" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateProps_noContentDescription_editText -->
+        <test-method signature="calculateProps_Button()" started-at="2024-01-10T23:51:58 CET" name="calculateProps_Button" finished-at="2024-01-10T23:51:58 CET" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateProps_Button -->
+      </class> <!-- com.deque.axe.android.AxeViewTest -->
+      <class name="com.deque.axe.android.rules.hierarchy.CheckBoxNameTest">
+        <test-method signature="visibleTextEmpty_labelIsEmpty_runRule()" started-at="2024-01-10T23:52:05 CET" name="visibleTextEmpty_labelIsEmpty_runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibleTextEmpty_labelIsEmpty_runRule -->
+        <test-method signature="overRidesAccessibilityDelegate_returnsFalse()" started-at="2024-01-10T23:52:05 CET" name="overRidesAccessibilityDelegate_returnsFalse" finished-at="2024-01-10T23:52:05 CET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overRidesAccessibilityDelegate_returnsFalse -->
+        <test-method signature="visibleTextEmpty_labelNotEmpty_runRule()" started-at="2024-01-10T23:52:05 CET" name="visibleTextEmpty_labelNotEmpty_runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibleTextEmpty_labelNotEmpty_runRule -->
+        <test-method signature="visibleTextNotEmpty_labelNotEmpty_runRule()" started-at="2024-01-10T23:52:05 CET" name="visibleTextNotEmpty_labelNotEmpty_runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibleTextNotEmpty_labelNotEmpty_runRule -->
+        <test-method signature="visibleTextNotEmpty_labelEmpty_runRule()" started-at="2024-01-10T23:52:05 CET" name="visibleTextNotEmpty_labelEmpty_runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibleTextNotEmpty_labelEmpty_runRule -->
+      </class> <!-- com.deque.axe.android.rules.hierarchy.CheckBoxNameTest -->
+      <class name="com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest">
+        <test-method signature="runRule_expectedSizeGreaterThanAdjustedHeight()" started-at="2024-01-10T23:52:06 CET" name="runRule_expectedSizeGreaterThanAdjustedHeight" finished-at="2024-01-10T23:52:06 CET" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRule_expectedSizeGreaterThanAdjustedHeight -->
+        <test-method signature="runRule_isRendered()" started-at="2024-01-10T23:52:06 CET" name="runRule_isRendered" finished-at="2024-01-10T23:52:06 CET" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRule_isRendered -->
+        <test-method signature="runRule_isOffScreen()" started-at="2024-01-10T23:52:06 CET" name="runRule_isOffScreen" finished-at="2024-01-10T23:52:06 CET" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRule_isOffScreen -->
+        <test-method signature="overRidesAccessibilityDelegate_returnsFalse()" started-at="2024-01-10T23:52:06 CET" name="overRidesAccessibilityDelegate_returnsFalse" finished-at="2024-01-10T23:52:06 CET" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overRidesAccessibilityDelegate_returnsFalse -->
+        <test-method signature="runRule_isPartiallyVisible()" started-at="2024-01-10T23:52:06 CET" name="runRule_isPartiallyVisible" finished-at="2024-01-10T23:52:06 CET" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRule_isPartiallyVisible -->
+        <test-method signature="runRule_expectedSizeLessThanAdjustedHeightAndExpectedSizeLessThanAdjustedWidth()" started-at="2024-01-10T23:52:06 CET" name="runRule_expectedSizeLessThanAdjustedHeightAndExpectedSizeLessThanAdjustedWidth" finished-at="2024-01-10T23:52:06 CET" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRule_expectedSizeLessThanAdjustedHeightAndExpectedSizeLessThanAdjustedWidth -->
+        <test-method signature="runRule_expectedSizeGreaterThanAdjustedWidth()" started-at="2024-01-10T23:52:06 CET" name="runRule_expectedSizeGreaterThanAdjustedWidth" finished-at="2024-01-10T23:52:06 CET" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRule_expectedSizeGreaterThanAdjustedWidth -->
+      </class> <!-- com.deque.axe.android.rules.hierarchy.TouchSizeWcagTest -->
+      <class name="com.deque.axe.android.rules.hierarchy.ActiveViewNameTest">
+        <test-method signature="isApplicable_classNameIsSwitch()" started-at="2024-01-10T23:52:03 CET" name="isApplicable_classNameIsSwitch" finished-at="2024-01-10T23:52:05 CET" duration-ms="2765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isApplicable_classNameIsSwitch -->
+        <test-method signature="speakableTextEmpty_runRule()" started-at="2024-01-10T23:52:03 CET" name="speakableTextEmpty_runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="2762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speakableTextEmpty_runRule -->
+        <test-method signature="isApplicable_overridesAccessibilityDelegate_returnsFalse()" started-at="2024-01-10T23:52:03 CET" name="isApplicable_overridesAccessibilityDelegate_returnsFalse" finished-at="2024-01-10T23:52:05 CET" duration-ms="2772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isApplicable_overridesAccessibilityDelegate_returnsFalse -->
+        <test-method signature="runRule()" started-at="2024-01-10T23:52:03 CET" name="runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="2775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRule -->
+        <test-method signature="viewNotClickable_runRule()" started-at="2024-01-10T23:52:03 CET" name="viewNotClickable_runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewNotClickable_runRule -->
+        <test-method signature="isApplicable_classNameIsCheckBox()" started-at="2024-01-10T23:52:03 CET" name="isApplicable_classNameIsCheckBox" finished-at="2024-01-10T23:52:05 CET" duration-ms="2769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isApplicable_classNameIsCheckBox -->
+        <test-method signature="isApplicable_classNameIsButton()" started-at="2024-01-10T23:52:03 CET" name="isApplicable_classNameIsButton" finished-at="2024-01-10T23:52:05 CET" duration-ms="2778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isApplicable_classNameIsButton -->
+      </class> <!-- com.deque.axe.android.rules.hierarchy.ActiveViewNameTest -->
+      <class name="com.deque.axe.android.AxeResultTest">
+        <test-method signature="test_QueryOnlyViolations()" started-at="2024-01-10T23:51:56 CET" name="test_QueryOnlyViolations" finished-at="2024-01-10T23:51:56 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_QueryOnlyViolations -->
+      </class> <!-- com.deque.axe.android.AxeResultTest -->
+      <class name="com.deque.axe.android.ColorContrastTests">
+        <test-method signature="example_withActualTextColor_ManualTestingRequired()" started-at="2024-01-10T23:51:58 CET" name="example_withActualTextColor_ManualTestingRequired" finished-at="2024-01-10T23:51:58 CET" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example_withActualTextColor_ManualTestingRequired -->
+        <test-method signature="example_Accessible()" started-at="2024-01-10T23:51:58 CET" name="example_Accessible" finished-at="2024-01-10T23:51:59 CET" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example_Accessible -->
+        <test-method signature="imageTest_whiteTextBlueBackground()" started-at="2024-01-10T23:51:58 CET" name="imageTest_whiteTextBlueBackground" finished-at="2024-01-10T23:52:03 CET" duration-ms="4414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTest_whiteTextBlueBackground -->
+        <test-method signature="imageTest_intellijCapture()" started-at="2024-01-10T23:51:58 CET" name="imageTest_intellijCapture" finished-at="2024-01-10T23:51:58 CET" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTest_intellijCapture -->
+        <test-method signature="imageTest_textOnlyAtTop()" started-at="2024-01-10T23:51:58 CET" name="imageTest_textOnlyAtTop" finished-at="2024-01-10T23:52:02 CET" duration-ms="4212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTest_textOnlyAtTop -->
+        <test-method signature="example_Inaccessible()" started-at="2024-01-10T23:51:58 CET" name="example_Inaccessible" finished-at="2024-01-10T23:51:58 CET" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example_Inaccessible -->
+        <test-method signature="example_ManualTestingRequired()" started-at="2024-01-10T23:51:58 CET" name="example_ManualTestingRequired" finished-at="2024-01-10T23:52:03 CET" duration-ms="4391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example_ManualTestingRequired -->
+        <test-method signature="imageTest_textWithIcon()" started-at="2024-01-10T23:51:58 CET" name="imageTest_textWithIcon" finished-at="2024-01-10T23:51:59 CET" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTest_textWithIcon -->
+        <test-method signature="imageTest_intellijCaptureHard()" started-at="2024-01-10T23:51:58 CET" name="imageTest_intellijCaptureHard" finished-at="2024-01-10T23:52:03 CET" duration-ms="4307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTest_intellijCaptureHard -->
+        <test-method signature="imageTest_largeWhiteTextBlueBackground()" started-at="2024-01-10T23:51:58 CET" name="imageTest_largeWhiteTextBlueBackground" finished-at="2024-01-10T23:51:59 CET" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTest_largeWhiteTextBlueBackground -->
+      </class> <!-- com.deque.axe.android.ColorContrastTests -->
+      <class name="com.deque.axe.android.AxeTest">
+        <test-method signature="testIgnoreMultipleRules()" started-at="2024-01-10T23:51:56 CET" name="testIgnoreMultipleRules" finished-at="2024-01-10T23:51:57 CET" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIgnoreMultipleRules -->
+        <test-method signature="jsonAxeRuleResultTestSpecs() throws java.io.IOException" started-at="2024-01-10T23:51:56 CET" name="jsonAxeRuleResultTestSpecs" finished-at="2024-01-10T23:51:58 CET" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonAxeRuleResultTestSpecs -->
+        <test-method signature="testDefaultConfig()" started-at="2024-01-10T23:51:56 CET" name="testDefaultConfig" finished-at="2024-01-10T23:51:57 CET" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaultConfig -->
+        <test-method signature="axeViewJsonTest() throws java.io.IOException" started-at="2024-01-10T23:51:56 CET" name="axeViewJsonTest" finished-at="2024-01-10T23:51:57 CET" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- axeViewJsonTest -->
+        <test-method signature="testRun()" started-at="2024-01-10T23:51:56 CET" name="testRun" finished-at="2024-01-10T23:51:57 CET" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRun -->
+        <test-method signature="axeMetaDataJsonTest() throws java.io.IOException" started-at="2024-01-10T23:51:56 CET" name="axeMetaDataJsonTest" finished-at="2024-01-10T23:51:58 CET" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- axeMetaDataJsonTest -->
+        <test-method signature="testOneStandardAndOneRule()" started-at="2024-01-10T23:51:56 CET" name="testOneStandardAndOneRule" finished-at="2024-01-10T23:51:58 CET" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneStandardAndOneRule -->
+        <test-method signature="testRuleSize()" started-at="2024-01-10T23:51:56 CET" name="testRuleSize" finished-at="2024-01-10T23:51:58 CET" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRuleSize -->
+        <test-method signature="testThrownException()" started-at="2024-01-10T23:51:56 CET" name="testThrownException" finished-at="2024-01-10T23:51:58 CET" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThrownException -->
+        <test-method signature="tesAxeConf()" started-at="2024-01-10T23:51:56 CET" name="tesAxeConf" finished-at="2024-01-10T23:51:58 CET" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesAxeConf -->
+        <test-method signature="testIgnoreRule()" started-at="2024-01-10T23:51:56 CET" name="testIgnoreRule" finished-at="2024-01-10T23:51:58 CET" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIgnoreRule -->
+      </class> <!-- com.deque.axe.android.AxeTest -->
+      <class name="com.deque.axe.android.rules.hierarchy.SwitchNameTest">
+        <test-method signature="visibleTextEmpty_labelIsEmpty_runRule()" started-at="2024-01-10T23:52:06 CET" name="visibleTextEmpty_labelIsEmpty_runRule" finished-at="2024-01-10T23:52:06 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibleTextEmpty_labelIsEmpty_runRule -->
+        <test-method signature="visibleTextEmpty_labelNotEmpty_runRule()" started-at="2024-01-10T23:52:06 CET" name="visibleTextEmpty_labelNotEmpty_runRule" finished-at="2024-01-10T23:52:06 CET" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibleTextEmpty_labelNotEmpty_runRule -->
+        <test-method signature="visibleTextNotEmpty_labelNotEmpty_runRule()" started-at="2024-01-10T23:52:06 CET" name="visibleTextNotEmpty_labelNotEmpty_runRule" finished-at="2024-01-10T23:52:06 CET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibleTextNotEmpty_labelNotEmpty_runRule -->
+        <test-method signature="visibleTextNotEmpty_labelEmpty_runRule()" started-at="2024-01-10T23:52:06 CET" name="visibleTextNotEmpty_labelEmpty_runRule" finished-at="2024-01-10T23:52:06 CET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibleTextNotEmpty_labelEmpty_runRule -->
+        <test-method signature="overRidesAccessibilityDelegate_returnsFalse()" started-at="2024-01-10T23:52:06 CET" name="overRidesAccessibilityDelegate_returnsFalse" finished-at="2024-01-10T23:52:06 CET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overRidesAccessibilityDelegate_returnsFalse -->
+      </class> <!-- com.deque.axe.android.rules.hierarchy.SwitchNameTest -->
+      <class name="com.deque.axe.android.rules.hierarchy.ImageViewNameTest">
+        <test-method signature="imageViewClass_isApplicable()" started-at="2024-01-10T23:52:05 CET" name="imageViewClass_isApplicable" finished-at="2024-01-10T23:52:06 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageViewClass_isApplicable -->
+        <test-method signature="switchClass_isApplicable()" started-at="2024-01-10T23:52:05 CET" name="switchClass_isApplicable" finished-at="2024-01-10T23:52:06 CET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchClass_isApplicable -->
+        <test-method signature="isImportantForAccessibilityEmptyContentDesc_runRule()" started-at="2024-01-10T23:52:05 CET" name="isImportantForAccessibilityEmptyContentDesc_runRule" finished-at="2024-01-10T23:52:06 CET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isImportantForAccessibilityEmptyContentDesc_runRule -->
+        <test-method signature="isNotImportantForAccessibility_runRule()" started-at="2024-01-10T23:52:05 CET" name="isNotImportantForAccessibility_runRule" finished-at="2024-01-10T23:52:06 CET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNotImportantForAccessibility_runRule -->
+        <test-method signature="isImportantForAccessibilityNonEmptyContentDesc_runRule()" started-at="2024-01-10T23:52:05 CET" name="isImportantForAccessibilityNonEmptyContentDesc_runRule" finished-at="2024-01-10T23:52:06 CET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isImportantForAccessibilityNonEmptyContentDesc_runRule -->
+        <test-method signature="imageViewClass_overridesAccessibilityDelegate_notApplicable()" started-at="2024-01-10T23:52:05 CET" name="imageViewClass_overridesAccessibilityDelegate_notApplicable" finished-at="2024-01-10T23:52:06 CET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageViewClass_overridesAccessibilityDelegate_notApplicable -->
+      </class> <!-- com.deque.axe.android.rules.hierarchy.ImageViewNameTest -->
+      <class name="com.deque.axe.android.rules.hierarchy.EditTextValueTest">
+        <test-method signature="overRidesAccessibilityDelegate_returnsFalse()" started-at="2024-01-10T23:52:05 CET" name="overRidesAccessibilityDelegate_returnsFalse" finished-at="2024-01-10T23:52:05 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overRidesAccessibilityDelegate_returnsFalse -->
+        <test-method signature="emptyContentDescription_runRule()" started-at="2024-01-10T23:52:05 CET" name="emptyContentDescription_runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyContentDescription_runRule -->
+        <test-method signature="editTextClass_isApplicable()" started-at="2024-01-10T23:52:05 CET" name="editTextClass_isApplicable" finished-at="2024-01-10T23:52:05 CET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editTextClass_isApplicable -->
+        <test-method signature="editTextClass_overridesAccessibilityDelegate_notApplicable()" started-at="2024-01-10T23:52:05 CET" name="editTextClass_overridesAccessibilityDelegate_notApplicable" finished-at="2024-01-10T23:52:05 CET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editTextClass_overridesAccessibilityDelegate_notApplicable -->
+        <test-method signature="switchClass_isApplicable()" started-at="2024-01-10T23:52:05 CET" name="switchClass_isApplicable" finished-at="2024-01-10T23:52:05 CET" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchClass_isApplicable -->
+        <test-method signature="nonEmptyContentDescription_runRule()" started-at="2024-01-10T23:52:05 CET" name="nonEmptyContentDescription_runRule" finished-at="2024-01-10T23:52:05 CET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonEmptyContentDescription_runRule -->
+      </class> <!-- com.deque.axe.android.rules.hierarchy.EditTextValueTest -->
+      <class name="com.deque.axe.android.wrappers.AxeColorTest">
+        <test-method signature="toHex_White()" started-at="2024-01-10T23:52:06 CET" name="toHex_White" finished-at="2024-01-10T23:52:06 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toHex_White -->
+        <test-method signature="compareTo_same()" started-at="2024-01-10T23:52:06 CET" name="compareTo_same" finished-at="2024-01-10T23:52:06 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareTo_same -->
+        <test-method signature="toHex_Black()" started-at="2024-01-10T23:52:06 CET" name="toHex_Black" finished-at="2024-01-10T23:52:06 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toHex_Black -->
+        <test-method signature="compareTo_different()" started-at="2024-01-10T23:52:06 CET" name="compareTo_different" finished-at="2024-01-10T23:52:06 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareTo_different -->
+        <test-method signature="toHex_Random()" started-at="2024-01-10T23:52:06 CET" name="toHex_Random" finished-at="2024-01-10T23:52:06 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toHex_Random -->
+      </class> <!-- com.deque.axe.android.wrappers.AxeColorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

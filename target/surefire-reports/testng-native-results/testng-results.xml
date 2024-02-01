@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-10T23:51:46 CET" name="Surefire suite" finished-at="2024-01-10T23:51:56 CET" duration-ms="9660">
+    <groups>
+    </groups>
+    <test started-at="2024-01-10T23:51:46 CET" name="Surefire test" finished-at="2024-01-10T23:51:56 CET" duration-ms="9660">
+      <class name="hdespresso.AccessibilityTest">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:hdespresso.AccessibilityTest@4b45a2f5]" started-at="2024-01-10T23:51:46 CET" name="ConfigureAppium" finished-at="2024-01-10T23:51:54 CET" duration-ms="7543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="accessibilityTest()[pri:0, instance:hdespresso.AccessibilityTest@4b45a2f5]" started-at="2024-01-10T23:51:54 CET" name="accessibilityTest" finished-at="2024-01-10T23:51:55 CET" duration-ms="1647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessibilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hdespresso.AccessibilityTest@4b45a2f5]" started-at="2024-01-10T23:51:55 CET" name="tearDown" finished-at="2024-01-10T23:51:56 CET" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hdespresso.AccessibilityTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
